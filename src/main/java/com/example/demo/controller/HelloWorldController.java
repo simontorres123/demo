@@ -74,8 +74,8 @@ public class HelloWorldController {
     }
 
     @GetMapping(path="/person")
-    public List<SoccerTeam> findByReuqestParam(){
-        return soccer.findAll();
+    public List<Person> findByReuqestParam(){
+        return personService.findAll();
     }
 
 }
