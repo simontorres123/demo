@@ -1,0 +1,2 @@
+insert into PERSON(name,lastname) values ( 'kevin','Avina' ),('Simon','Torres');
+insert into SOCCER_TEAM(name,league,championships) values ( 'Barcelona','Española','6' ),('Real madrid','Española','7');
